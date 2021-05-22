@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="GoogleTesting">
+    <listeners>
+        <listener class-name="utils.TestNGListeners" />
+    </listeners>
+    <test name="GoogleVerification">
+        <parameter name="browser" value="Firefox"></parameter>
+        <groups>
+            <run>
+               <include name="attribute"></include>
+                <include name="title"></include>
+            </run>
+        </groups>
+        <classes>
+
+            <class name="GetTitleOfPage"></class>
+            <class name ="GetAttributeOfImg"></class>
+            <class name="SearchElement"></class>
+        </classes>
+
+    </test>
+
+
+</suite>

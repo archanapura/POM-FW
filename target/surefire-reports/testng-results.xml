@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="12" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigating to https://google.com]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to https://google.com]]>
+    </line>
+    <line>
+      <![CDATA[https://www.google.com/]]>
+    </line>
+    <line>
+      <![CDATA[Launched application and getting title]]>
+    </line>
+    <line>
+      <![CDATA[Printing n1n2]]>
+    </line>
+    <line>
+      <![CDATA[Printing v1v2]]>
+    </line>
+    <line>
+      <![CDATA[verifyGooglePage is executed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Launched application and getting title]]>
+    </line>
+    <line>
+      <![CDATA[Printing n1n3]]>
+    </line>
+    <line>
+      <![CDATA[Printing v1v3]]>
+    </line>
+    <line>
+      <![CDATA[verifyGooglePage is executed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-11T19:14:21 IST" name="GoogleTesting" finished-at="2021-05-11T19:14:34 IST" duration-ms="12616">
+    <groups>
+      <group name="title">
+        <method signature="GetTitleOfPage.verifyGooglePage(java.lang.String, java.lang.String)[pri:0, instance:GetTitleOfPage@c8e4bb0]" name="verifyGooglePage" class="GetTitleOfPage"/>
+      </group> <!-- title -->
+    </groups>
+    <test started-at="2021-05-11T19:14:21 IST" name="GoogleVerification" finished-at="2021-05-11T19:14:34 IST" duration-ms="12616">
+      <class name="GetTitleOfPage">
+        <test-method is-config="true" signature="configureReports(org.testng.ITestContext)[pri:0, instance:GetTitleOfPage@c8e4bb0]" started-at="2021-05-11T19:14:21 IST" name="configureReports" finished-at="2021-05-11T19:14:21 IST" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71870da7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReports -->
+        <test-method is-config="true" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:GetTitleOfPage@c8e4bb0]" started-at="2021-05-11T19:14:21 IST" name="initializeTest" finished-at="2021-05-11T19:14:21 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71870da7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:GetTitleOfPage@c8e4bb0]" started-at="2021-05-11T19:14:21 IST" name="launchApp" finished-at="2021-05-11T19:14:28 IST" duration-ms="6253" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigating to https://google.com]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to https://google.com]]>
+            </line>
+            <line>
+              <![CDATA[https://www.google.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="initializeMethod(org.testng.ITestResult)[pri:0, instance:GetTitleOfPage@c8e4bb0]" started-at="2021-05-11T19:14:28 IST" name="initializeMethod" finished-at="2021-05-11T19:14:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetTitleOfPage.verifyGooglePage(java.lang.String, java.lang.String)[pri:0, instance:GetTitleOfPage@c8e4bb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeMethod -->
+        <test-method signature="verifyGooglePage(java.lang.String, java.lang.String)[pri:0, instance:GetTitleOfPage@c8e4bb0]" started-at="2021-05-11T19:14:28 IST" name="verifyGooglePage" data-provider="usercreds" finished-at="2021-05-11T19:14:28 IST" duration-ms="34" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[n2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[v2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launched application and getting title]]>
+            </line>
+            <line>
+              <![CDATA[Printing n1n2]]>
+            </line>
+            <line>
+              <![CDATA[Printing v1v2]]>
+            </line>
+            <line>
+              <![CDATA[verifyGooglePage is executed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePage -->
+        <test-method is-config="true" signature="closeMethod(org.testng.ITestResult)[pri:0, instance:GetTitleOfPage@c8e4bb0]" started-at="2021-05-11T19:14:28 IST" name="closeMethod" finished-at="2021-05-11T19:14:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGooglePage status=SUCCESS method=GetTitleOfPage.verifyGooglePage(java.lang.String, java.lang.String)[pri:0, instance:GetTitleOfPage@c8e4bb0] output=Launched application and getting title]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+        <test-method is-config="true" signature="initializeMethod(org.testng.ITestResult)[pri:0, instance:GetTitleOfPage@c8e4bb0]" started-at="2021-05-11T19:14:28 IST" name="initializeMethod" finished-at="2021-05-11T19:14:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetTitleOfPage.verifyGooglePage(java.lang.String, java.lang.String)[pri:0, instance:GetTitleOfPage@c8e4bb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeMethod -->
+        <test-method signature="verifyGooglePage(java.lang.String, java.lang.String)[pri:0, instance:GetTitleOfPage@c8e4bb0]" started-at="2021-05-11T19:14:28 IST" name="verifyGooglePage" data-provider="usercreds" finished-at="2021-05-11T19:14:28 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[n3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[v3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launched application and getting title]]>
+            </line>
+            <line>
+              <![CDATA[Printing n1n3]]>
+            </line>
+            <line>
+              <![CDATA[Printing v1v3]]>
+            </line>
+            <line>
+              <![CDATA[verifyGooglePage is executed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePage -->
+        <test-method is-config="true" signature="closeMethod(org.testng.ITestResult)[pri:0, instance:GetTitleOfPage@c8e4bb0]" started-at="2021-05-11T19:14:28 IST" name="closeMethod" finished-at="2021-05-11T19:14:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGooglePage status=SUCCESS method=GetTitleOfPage.verifyGooglePage(java.lang.String, java.lang.String)[pri:0, instance:GetTitleOfPage@c8e4bb0] output=Launched application and getting title]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethod -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:GetTitleOfPage@c8e4bb0]" started-at="2021-05-11T19:14:28 IST" name="closeApp" finished-at="2021-05-11T19:14:32 IST" duration-ms="4261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="closingSteps(org.testng.ITestContext)[pri:0, instance:GetTitleOfPage@c8e4bb0]" started-at="2021-05-11T19:14:32 IST" name="closingSteps" finished-at="2021-05-11T19:14:34 IST" duration-ms="2002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71870da7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingSteps -->
+        <test-method is-config="true" signature="closeExtentReports()[pri:0, instance:GetTitleOfPage@c8e4bb0]" started-at="2021-05-11T19:14:34 IST" name="closeExtentReports" finished-at="2021-05-11T19:14:34 IST" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtentReports -->
+      </class> <!-- GetTitleOfPage -->
+    </test> <!-- GoogleVerification -->
+  </suite> <!-- GoogleTesting -->
+</testng-results>
